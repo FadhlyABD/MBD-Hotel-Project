@@ -2,5 +2,8 @@
 
 ### Hotel Booking Website using PHP and MySQL
 
-#### Run by:
-1. I don't know how to
+#### How to Contribute:
+1. Clone the repo to C\xampp\htdocs
+2. Turn on apache on xampp
+3. Run the apache localhost to live view 
+4. Enjoy finishing code
