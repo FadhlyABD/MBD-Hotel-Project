@@ -1,1 +1,2 @@
-# mbd-hotel-project
+# Hotel Booking Website
+
