@@ -113,7 +113,7 @@
         enjoy spectacular views of the city.
     </p>
 
-    <div class="container px-0">
+    <div class="container-fluid px-0">
         <div class="swiper swiper-container-2">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -274,13 +274,19 @@
         });
 
         var swiper = new Swiper(".swiper-container-2", {
-            spaceBetween: 30,
+            slidesPerView: 1,
+            spaceBetween: 20,
             loop: true,
             centeredSlides: true,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
             },
+            breakpoints: {
+                1350: {
+                    slidesPerView: 2
+                }
+            }
             // navigation: {
             //     nextEl: ".swiper-button-next",
             //     prevEl: ".swiper-button-prev",

@@ -34,17 +34,21 @@
         </div>
         <div class="col-lg-2 ps-lg-4 pt-4">
             <h5 class="mb-3 fw-medium s-font text-color">Follow Us</h5>
-            <a href="#" class="d-inline-block mb-1 text-decoration-none sm-text s-font text-color"> 
-                <i class="bi bi-twitter me-1"></i> Twitter
+            <a href="#" class="d-inline-block mb-2 text-decoration-none sm-text s-font text-color"> 
+                <img src="/hotel/images/about/Twitter2.svg" alt="" width="20" height="15" class="d-inline-block align-text-center"> 
+                Twitter
             </a><br>
-            <a href="#" class="d-inline-block mb-1 text-decoration-none sm-text s-font text-color"> 
-                <i class="bi bi-facebook me-1"></i> Facebook
+            <a href="https://www.facebook.com/vano.vano.731?mibextid=ZbWKwL" class="d-inline-block mb-2 text-decoration-none sm-text s-font text-color"> 
+                <img src="/hotel/images/about/Facebook2.svg" alt="" width="20" height="15" class="d-inline-block align-text-center"> 
+                Facebook
             </a><br>
-            <a href="#" class="d-inline-block mb-1 text-decoration-none sm-text s-font text-color"> 
-                <i class="bi bi-instagram me-1"></i> Instagram
+            <a href="https://instagram.com/duevano.fairuz?igshid=MzRlODBiNWFlZA==" class="d-inline-block mb-2 text-decoration-none sm-text s-font text-color"> 
+                <img src="/hotel/images/about/Instagram2.svg" alt="" width="20" height="15" class="d-inline-block align-text-center"> 
+                Instagram
             </a><br>
-            <a href="#" class="d-inline-block mb-1 text-decoration-none sm-text s-font text-color"> 
-                <i class="bi bi-tiktok me-1"></i> Tiktok
+            <a href="https://www.tiktok.com/@duevano_f?_t=8cweI5RPFb8&_r=1" class="d-inline-block mb-2 text-decoration-none sm-text s-font text-color"> 
+                <img src="/hotel/images/about/Tiktok2.svg" alt="" width="20" height="15" class="d-inline-block align-text-center"> 
+                Tiktok
             </a><br>
         </div>
         <div class="col-lg-2 pe-lg-4 pt-4">
