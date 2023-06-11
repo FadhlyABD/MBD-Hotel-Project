@@ -5,10 +5,10 @@
 <div class="container-fluid custom-bg-4 sm-center">
     <div class="row">
         <div class="col-lg-3 p-4">
-            <h5 class="mb-3 fw-medium s-font text-color">Rendezvouz Surabaya</h5>
+            <h5 class="mb-3 fw-medium s-font text-color">Rendezvous Surabaya</h5>
             <p class="sm-text s-font text-color">Adress: Surabaya, Kedurus, Kec. Karangpilang, Surabaya, Jawa Timur 60223</p>
             <p class="sm-text s-font text-color">Phone: 0813 3619 7912</p>
-            <p class="sm-text s-font text-color">Email: surabaya@rendezvouz.com</p>
+            <p class="sm-text s-font text-color">Email: surabaya@Rendezvous.com</p>
         </div>
         <div class="col-lg-3 p-4">
             <h5 class="mb-3 fw-medium s-font text-color">Check-in / Check-out</h5>
@@ -62,8 +62,8 @@
 <div class="container-fluid custom-bg-2 text-center pt-3">
     <a class="navbar-brand s-font fs-3" href="index.php">
         <img src="/hotel/images/about/hotelLogo.svg" alt="Logo" width="60" height="53" class="d-inline-block align-text-center">  
-        Rendezvouz
+        Rendezvous
     </a>
     <h6 class="s-font fw-medium">Privacy Policy | Terms & Conditions | Disclaimer | Supplier Code Of Conduct</h6>
-    <h6 class="sm-text s-font">© 2023 Rendezvouz International Hotel Management Ltd. All Rights Reserved. ICP license: 17055189</h6>
+    <h6 class="sm-text s-font">© 2023 Rendezvous International Hotel Management Ltd. All Rights Reserved. ICP license: 17055189</h6>
 </div>
