@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Rendezvouz Hotel</title>    
+    <title>Home | Rendezvous Hotel</title>    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <?php require('main/links.php'); ?>
 </head>
@@ -15,7 +15,7 @@
     <!-- Carousel -->
 
     <div class="container-fluid px-0">
-        <h1 class="h-font carousel-text text-color">Rendezvouz Surabaya</h1>
+        <h1 class="h-font carousel-text text-color">Rendezvous Surabaya</h1>
         <h6 class="text-color carousel-text mt-5">Book indirect and waste more</h6>
         <div class="swiper swiper-container-1">
             <div class="swiper-wrapper">
@@ -88,17 +88,17 @@
             <div class="col-lg-5 me-lg-5 p-4">
                 <h3 class="fw-bold pt-5 h-font">About</h3><br>
                 <h6>A refined oasis of quietude right in the heart of the city, 
-                    Rendezvouz Surabaya presents a traditional sense of luxury 
+                    Rendezvous Surabaya presents a traditional sense of luxury 
                     with an endless Javanese style and warm Indonesian hospitality. 
                     Featuring 380* elegant guest rooms and suites with stylish 
                     ambience in its unique contemporary, yet culturally relevant 
                     room décor, as well as in the exquisite dining venues. From 
-                    business to leisure, Rendezvouz Surabaya is the ideal home 
+                    business to leisure, Rendezvous Surabaya is the ideal home 
                     away from home.
                 </h6><br>
                 <h6>380* elegant guest rooms and suites</h6>
                 <h6>5* restaurants and a range of recreational experiences</h6>
-                <h6>Rendezvouz Cares: Our commitment to your well-being in our care</h6><br>
+                <h6>Rendezvous Cares: Our commitment to your well-being in our care</h6><br>
                 <a class="lm-color fs-5" href="#">Learn More</a>
             </div>
         </div>
@@ -107,7 +107,7 @@
     <!-- Rooms & Suites -->
 
     <h3 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">Recommended Room Types</h3>
-    <p class="text-center room-desc">Rendezvouz Surabaya, features 380* tastefully decorated guest rooms and suites 
+    <p class="text-center room-desc">Rendezvous Surabaya, features 380* tastefully decorated guest rooms and suites 
         in warm tones, showcasing modern elegance and Javanese- styled luxury with 
         intricately carved local wooden frames adorning the walls. Many of the rooms 
         enjoy spectacular views of the city.
