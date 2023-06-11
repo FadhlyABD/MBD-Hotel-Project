@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rooms & Suites | Rendezvouz Hotel</title>
+    <title>Rooms & Suites | Rendezvous Hotel</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <?php require('main/links.php'); ?>
 </head>
@@ -25,7 +25,7 @@
 
     <!-- swiper start -->
     <div class="container-fluid px-0">
-        <!-- <h1 class="h-font carousel-text text-color">Rendezvouz Surabaya</h1>
+        <!-- <h1 class="h-font carousel-text text-color">Rendezvous Surabaya</h1>
         <h6 class="text-color carousel-text mt-5">Book indirect and waste more</h6> -->
         <style>
             .swiper-container-1 {
