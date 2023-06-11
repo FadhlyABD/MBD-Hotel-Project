@@ -4,7 +4,7 @@
 <div class="d-flex justify-content-between mx-auto p-2">
     <a class="navbar-brand s-font" href="index.php">
         <img src="/hotel/images/about/hotelLogo.svg" alt="Logo" width="50" height="44" class="d-inline-block align-text-center">  
-        Rendezvouz
+        Rendezvous
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon sm-center"></span>
