@@ -14,22 +14,46 @@
         <!-- <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li> -->
-        <li class="nav-item">
-        <a class="nav-link s-font fw-medium" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">
-            <img src="/hotel/images/about/signinIcon.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-            Log In</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link s-font fw-medium" href="#" data-bs-toggle="modal" data-bs-target="#registerModal">
-            <img src="/hotel/images/about/signinIcon.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-            Register</a>
-        </li>
+        <?php
+            if(isset($_SESSION['login']) && $_SESSION['login'] == true)
+            {
+                echo<<<data
+                <li class="nav-item">
+                <a class="nav-link s-font fw-medium" href="#" data-bs-toggle="modal">
+                <i class="bi bi-person-check"></i>
+                    $_SESSION[uName]</a>    
+                </li>
+                <li class="nav-item">
+                <a class="nav-link s-font fw-medium" href="logout.php">
+                    <i class="bi bi-box-arrow-left"></i>
+                    Log Out</a>
+                </li>
+                data;
+            }
+            else{
+                echo<<<data
+                <li class="nav-item">
+                <a class="nav-link s-font fw-medium" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">
+                <i class="bi bi-person"></i>
+                    Log In</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link s-font fw-medium" href="#" data-bs-toggle="modal" data-bs-target="#registerModal">
+                <i class="bi bi-person"></i>
+                    Register</a>
+                </li>
+                data;
+            }
+            
+            
+        ?>
+        
         <li class="nav-item">
         <a class="nav-link s-font fw-medium" href="#">Find Reservations</a>
         </li>
         <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle s-font fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="/hotel/images/about/language.svg" alt="Logo" width="20" height="24" class="d-inline-block align-text-top">
+        <i class="bi bi-globe"></i>
             English
         </a>
         <ul class="dropdown-menu">
@@ -157,34 +181,36 @@
 <div class="modal fade" id="loginModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
-            <div class="modal-header p-2">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="container-fluid">
-                    <div class="row">
-                        <p class="modal-title fs-2 h-font text-center" id="staticBackdropLabel">Log In</p>                            
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="inputPassword5" class="form-label">Password</label>
-                        <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock">
-                        <div id="passwordHelpBlock mb-3" class="form-text">
-                            Your password must be 8-20 characters long.
+            <form id="login_form">
+                <div class="modal-header p-2">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <p class="modal-title fs-2 h-font text-center" >User Log In</p>                            
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Username</label>
+                            <input name="name" type="text" class="form-control" placeholder="Username" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input name="pass" type="password" class="form-control" aria-labelledby="passwordHelpBlock" required>
+                            <div id="passwordHelpBlock mb-3" class="form-text">
+                                Your password must be 8-20 characters long.
+                            </div>
                         </div>
                     </div>
+                    <hr>
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn custom-bg-1" type="button">Log In</button>                     
+                    </div>
                 </div>
-                <hr>
-                <div class="d-grid gap-2">
-                    <button class="btn custom-bg-1" type="button">Log In</button>                     
+                <div class="modal-footer">
+                    
                 </div>
-            </div>
-            <div class="modal-footer">
-                
-            </div>
+            </form>
         </div>
     </div>
 </div>
@@ -229,6 +255,7 @@
                 <div class="modal-footer">
                     
                 </div>
+            </form>
         </div>
     </div>
 </div>
