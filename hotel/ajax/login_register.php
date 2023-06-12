@@ -37,4 +37,26 @@
         }
     }
 
+    if (isset($_POST['login'])) {
+        $data = filteration($_POST);
+    
+        $u_exist = select("SELECT * FROM `user` WHERE `username` = ? LIMIT 1", [$data['name']], "s");
+    
+        if (mysqli_num_rows($u_exist) == 0) {
+            echo 'inv_username';
+        } else {
+            $u_fetch = mysqli_fetch_assoc($u_exist);
+            if ($data['pass'] == $u_fetch['PASSWORD']) {
+                session_start();
+                $_SESSION['login'] = true;
+                $_SESSION['uName'] = $u_fetch['USERNAME'];
+                echo 1;
+            } else {
+                echo 'invalid_pass';
+            }
+        }
+    
+        exit();
+    }
+
 ?>
