@@ -49,7 +49,13 @@
             if ($data['pass'] == $u_fetch['PASSWORD']) {
                 session_start();
                 $_SESSION['login'] = true;
+                $_SESSION['uId'] = $u_fetch['u_id'];
                 $_SESSION['uName'] = $u_fetch['USERNAME'];
+                
+                // Update status menjadi 1
+                $update_query = "UPDATE `user` SET `status` = 1 WHERE `u_id` = ?";
+                $update_values = [$u_fetch['u_id']];
+                update($update_query, $update_values, 'i');
                 echo 1;
             } else {
                 echo 'invalid_pass';
