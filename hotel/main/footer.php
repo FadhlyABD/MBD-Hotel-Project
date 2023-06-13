@@ -20,14 +20,13 @@
             <h5 class="mb-3 fw-medium s-font text-color">Overview</h5>
             <div class="row">
                 <div class="col-lg-6">
-                    <a href="#" class="d-inline-block mb-1 text-decoration-none sm-text s-font text-color">About</a><br>
-                    <a href="#" class="d-inline-block mb-1 text-decoration-none sm-text s-font text-color">Rooms & Suites</a><br>
-                    <a href="#" class="d-inline-block mb-1 text-decoration-none sm-text s-font text-color">Dining</a><br>
-                    <a href="#" class="d-inline-block mb-1 text-decoration-none sm-text s-font text-color">Events</a><br>
+                    <a href="aboutpage.php" class="d-inline-block mb-1 text-decoration-none sm-text s-font text-color">About</a><br>
+                    <a href="rooms.php" class="d-inline-block mb-1 text-decoration-none sm-text s-font text-color">Rooms & Suites</a><br>
+                    <a href="dining.php" class="d-inline-block mb-1 text-decoration-none sm-text s-font text-color">Dining</a><br>
                 </div>
                 <div class="col-lg-6">
+                    <a href="fasilitas.php" class="d-inline-block mb-1 text-decoration-none sm-text s-font text-color">Facilities</a><br>
                     <a href="#" class="d-inline-block mb-1 text-decoration-none sm-text s-font text-color">Gallery</a><br>
-                    <a href="#" class="d-inline-block mb-1 text-decoration-none sm-text s-font text-color">Offers</a><br>
                     <a href="#" class="d-inline-block mb-1 text-decoration-none sm-text s-font text-color">More</a>
                 </div>
             </div>                
