@@ -93,10 +93,10 @@
         </a>
         <ul class="dropdown-menu custom-bg-2 no-radius">
             <li><h6 class="dropdown-header">Dropdown header</h6></li>
-            <li><a class="dropdown-item text-dark sm-text s-font" href="#">Action</a></li>
-            <li><a class="dropdown-item text-dark sm-text s-font" href="#">Another action</a></li>
+            <li><a class="dropdown-item text-dark sm-text s-font" href="aboutpage.php">Action</a></li>
+            <li><a class="dropdown-item text-dark sm-text s-font" href="aboutpage.php">Another action</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item text-dark sm-text s-font" href="#">Something else here</a></li>
+            <li><a class="dropdown-item text-dark sm-text s-font" href="aboutpage.php">Something else here</a></li>
         </ul>
         </li>
         <li class="nav-item dropdown">
@@ -134,27 +134,27 @@
             <li><a class="dropdown-item text-dark md-text" href="#">Action</a></li>
             <li><a class="dropdown-item text-dark md-text" href="#">Another action</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item text-dark md-text" href="#">DINING OVERVIEW</a></li>
+            <li><a class="dropdown-item text-dark md-text" href="dining.php">DINING OVERVIEW</a></li>
         </ul>
         </li>
         <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle s-font fw-medium text-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            EVENTS
+            FACILITIES
         </a>
         <ul class="dropdown-menu custom-bg-2 no-radius">
             <li><h6 class="dropdown-header">Dropdown header</h6></li>
             <li><a class="dropdown-item text-dark md-text" href="#">Action</a></li>
             <li><a class="dropdown-item text-dark md-text" href="#">Another action</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item text-dark md-text" href="#">Something else here</a></li>
+            <li><a class="dropdown-item text-dark md-text" href="fasilitas.php">FACILITIES OVERVIEW</a></li>
         </ul>
         </li>
         <li class="nav-item">
-        <a class="nav-link s-font fw-medium text-color" href="#">GALLERY</a>
+        <a class="nav-link s-font fw-medium text-color" href="https://www.youtube.com/@WindahBasudara">GALLERY</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
         <a class="nav-link s-font fw-medium text-color" href="#">OFFERS</a>
-        </li>
+        </li> -->
         <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle s-font fw-medium text-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             MORE
@@ -164,7 +164,7 @@
             <li><a class="dropdown-item text-dark" href="#">Action</a></li>
             <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
+            <li><a class="dropdown-item text-dark" href="https://youtu.be/rePXVSWwNIY">Something else here</a></li>
         </ul>
         </li>
     </ul>
