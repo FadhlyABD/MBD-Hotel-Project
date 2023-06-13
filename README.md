@@ -11,7 +11,7 @@
 6. Enjoy!
 
 #### Contributor and Jobdesc
-1. Abdullah Yasykur Bifadhlil Midror  5025211035
+**1. Abdullah Yasykur Bifadhlil Midror  5025211035**
 - Fullstack Dev (Front-End + Back-End)
 - Doing all the jobs (literally)
 - Studying and implementing all the cases used in development
@@ -23,12 +23,12 @@
 - Can speak Indian
 - Has completed recitating Quran
 
-2. Achmad Khosyi' Assajjad Ramandanta 5025211007
+**2. Achmad Khosyi' Assajjad Ramandanta 5025211007**
 - Revise and Entry Database
 - Making the system register and logging
 - Implementing the trigger mechanism
 
-3. Duevano Fairuz Pandya              5025211052
+**3. Duevano Fairuz Pandya              5025211052**
 - Revise and Entry Database
 - Design and prototype the website (Figma: https://www.figma.com/file/iBNl1YwXQ6oOAsLkQKb1ea/mbd-hotel?type=design&node-id=12%3A2&t=vnMPreE45GScwrlL-1)
 - Slicing Design (Front-End Dev)
